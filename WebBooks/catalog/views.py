@@ -12,8 +12,7 @@ def index(request):
                   context={'num_books': num_books,
                            'num_instance': num_instance,
                            'num_instance_available': num_instance_available,
-                           'num_authors': num_author,
-                           'num_visitors': num_visitors}, )
+                           'num_authors': num_author}, )
 
 
 class BookListView(generic.ListView):
